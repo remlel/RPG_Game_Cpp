@@ -1,0 +1,17 @@
+# Ignorer les dossiers de compilation
+build/
+out/
+bin/
+
+# Ignorer les exécutables et fichiers objets
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+
+# Ignorer les dossiers de configuration des éditeurs (VS, VS Code...)
+.vs/
+.vscode/
+CMakeCache.txt
+CMakeFiles/
